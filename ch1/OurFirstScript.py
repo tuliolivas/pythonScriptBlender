@@ -10,7 +10,7 @@ from math import *
 #~Convenience Imports:   from mathutils import *; from math import *
 #~Convenience Variables: C = bpy.context, D = bpy.data
 
-bpy.ops.mesh.primitive_cylinder_add(radius=1, depth=2, enter_editmode=False, align='WORLD', location=(0, 0, 0), scale=(2, 2, 1))
+bpy.ops.mesh.primitive_cylinder_add(radius=1, depth=2, enter_editmode=False, align='WORLD', location=(0, 0, 0), scale=(1, 1, 1))
 #~ {'FINISHED'}
 #~ 
 bpy.ops.mesh.primitive_uv_sphere_add(enter_editmode=False, align='WORLD', location=(0, 0, 2), scale=(1, 1, 1))
